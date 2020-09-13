@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Blog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body ng-app="my-app">
+    <div class="nav-bar">
+        <ul class="responsive">
+            <li ><a class="active" href="#home"><p>Home</p></a></li>
+			<li ><a href="profile.html"><p>Profile</p></a></li>
+			<li ><a href="contact.html"><p>Contact</p></a></li>
+        </ul>
+    </div>
+	<div ng-controller="display-area" class="area">
+		<p class="welcome"><u>Welcome to My Site</u></p><br>
+		<img src="https://media-exp1.licdn.com/dms/image/C5603AQFROt_ScaS-WQ/profile-displayphoto-shrink_400_400/0?e=1605744000&v=beta&t=_AxjT3EV6qx8byJUag58EtHRm_gD0r3OiWjEy82i5u8" width="400" height="400" class="responsive" alt="yajith"></img>
+		<button class="mdc-button--raised >
+  <span class="mdc-button__label">Continue to Profile</span>
+</button>
+	</div>
+</body>
+</html>

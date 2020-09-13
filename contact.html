@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Blog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body ng-app="my-app">
+    <div class="nav-bar">
+        <ul class="responsive">
+            <li ><a href="index.html"><p>Home</p></a></li>
+			<li ><a href="profile.html"><p>Profile</p></a></li>
+			<li ><a class="active"href="#contact"><p>Contact</p></a></li>
+        </ul>
+    </div>
+	<div ng-controller="display-area" class="area">
+		<p class="welcome"><u>Contact</u></p><br>
+		<center>
+		<table class="responsive">
+		<tr>
+		<td><i class="fa fa-instagram" style="font-size:48px;color:red"></i></td>
+		<td>https://www.instagram.com/yajithvishwa/</td>
+		</tr>
+		<tr>
+		<td><i class="fa fa-whatsapp" style="font-size:48px;color:green"></i></td>
+		<td>+91 9384902231</td>
+		</tr>
+		<tr>
+		<td><i class="fa fa-linkedin" style="font-size:48px;color:blue"></i></td>
+		<td>https://www.linkedin.com/in/yajith-vishwa-588412182/</td>
+		</tr>
+		<tr>
+		<td><i class="fa fa-github" style="font-size:48px;color:black"></i></td>
+		<td>https://github.com/YajithVishwa</td>
+		</tr>
+		</table>
+		</center>
+	</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Blog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body ng-app="my-app">
+    <div class="nav-bar">
+        <ul class="responsive">
+            <li ><a href="index.html"><p>Home</p></a></li>
+			<li ><a class="active" href="profile.html"><p>Profile</p></a></li>
+			<li ><a href="contact.html"><p>Contact</p></a></li>
+        </ul>
+    </div>
+	<div ng-controller="display-area" class="area">
+		<p class="welcome"><u>About Me</u></p><br>
+		<center>
+		<table class="responsive">
+		<tr>
+		<td>Name</td>
+		<td>Yajith Vishwa</td>
+		</tr>
+		<tr>
+		<td>DOD</td>
+		<td>12<sup>th</sup> APR</td>
+		</tr>
+		<tr>
+		<td>Educational Background</td>
+		<td><span style="text-decoration:overline;">BTech</span></td>
+		</tr>
+		<tr>
+		<td>Area Of Interest</td>
+		<td>Android App Development, Cloud Technologies <br>and IoT</td>
+		</tr>
+		<tr>
+		<td>Living in</td>
+		<td>Madurai</td>
+		</tr>
+		</table>
+		</center>
+	</div>
+</body>
+</html>
